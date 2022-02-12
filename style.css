@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.output, .score {
+    text-align: center;
+    flex-basis: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(182, 182, 182);
+    margin: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+.score {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons {
+    margin: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.butt{
+    font-size: 1.5rem;
+    flex: 1;
+
+    min-width: 25vh;
+    padding: 20px;
+    border:2px black solid;
+    border-radius: 40px;
+}
+
+.butt:hover {
+    background-color: rgb(53, 53, 53);
+    color:rgb(182, 182, 182)
+}
+
+.re {
+    margin: 20px;
+    flex-basis: 50px;
+    display: flex;
+    justify-content: center;
+}
